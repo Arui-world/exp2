@@ -1,1 +1,20 @@
-<RCC/>
+<RCC>
+    <qresource prefix="/">
+        <file>images/CodiconLayoutStatusbar.png</file>
+        <file>images/FluentMdl2Font.png</file>
+        <file>images/FluentMdl2ShowResults.png</file>
+        <file>images/FluentTextColumnOneWideLightning16Filled.png</file>
+        <file>images/IcBaselineContentCut.png</file>
+        <file>images/IcBaselineContentPaste.png</file>
+        <file>images/IcOutlineFileCopy.png</file>
+        <file>images/IcOutlineFileOpen.png</file>
+        <file>images/IcSharpRedo.png</file>
+        <file>images/IcSharpUndo.png</file>
+        <file>images/LucideReplaceAll.png</file>
+        <file>images/MaterialSymbolsDocumentSearchOutline.png</file>
+        <file>images/MaterialSymbolsSave.png</file>
+        <file>images/MaterialSymbolsSaveAs.png</file>
+        <file>images/MaterialSymbolsToolbarOutline.png</file>
+        <file>images/StreamlineFlexNewFile.png</file>
+    </qresource>
+</RCC>
