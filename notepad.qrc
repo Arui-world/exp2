@@ -16,5 +16,6 @@
         <file>images/MaterialSymbolsSaveAs.png</file>
         <file>images/MaterialSymbolsToolbarOutline.png</file>
         <file>images/StreamlineFlexNewFile.png</file>
+        <file>images/IconParkEditor.png</file>
     </qresource>
 </RCC>

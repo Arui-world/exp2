@@ -80,13 +80,14 @@
     <property name="title">
      <string>查看(&amp;V)</string>
     </property>
+    <addaction name="actionTool"/>
+    <addaction name="actionStatus"/>
    </widget>
    <widget class="QMenu" name="menu_H">
     <property name="title">
      <string>帮助(&amp;H)</string>
     </property>
-    <addaction name="actionTool"/>
-    <addaction name="actionStatus"/>
+    <addaction name="actionAbout"/>
    </widget>
    <addaction name="menu"/>
    <addaction name="menu_E"/>
@@ -422,6 +423,17 @@
    </property>
    <property name="toolTip">
     <string>状态栏</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>关于</string>
+   </property>
+   <property name="toolTip">
+    <string>关于</string>
    </property>
    <property name="menuRole">
     <enum>QAction::MenuRole::NoRole</enum>
