@@ -44,6 +44,8 @@ void SearchDialog::on_btFindNext_clicked()
         QMessageBox msg(this);
         msg.setWindowTitle("jishiben");
         msg.setText(QString("找不到")+target);
+        msg.setWindowFlag(Qt::Drawer);
+        msg.setIcon(QMessageBox::Information);
         msg.setStandardButtons(QMessageBox::Ok);
         msg.exec();
     }
