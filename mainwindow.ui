@@ -75,6 +75,9 @@
     <addaction name="actionW"/>
     <addaction name="actionL"/>
     <addaction name="actionFont"/>
+    <addaction name="actionFontColor"/>
+    <addaction name="actionEditorBackgroudColor"/>
+    <addaction name="actionFontBackgroudColor"/>
    </widget>
    <widget class="QMenu" name="menu_V">
     <property name="title">
@@ -351,6 +354,9 @@
    </property>
   </action>
   <action name="actionW">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
    <property name="icon">
     <iconset resource="notepad.qrc">
      <normaloff>:/images/FluentTextColumnOneWideLightning16Filled.png</normaloff>:/images/FluentTextColumnOneWideLightning16Filled.png</iconset>
@@ -366,6 +372,9 @@
    </property>
   </action>
   <action name="actionL">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
    <property name="icon">
     <iconset resource="notepad.qrc">
      <normaloff>:/images/FluentMdl2ShowResults.png</normaloff>:/images/FluentMdl2ShowResults.png</iconset>
@@ -399,6 +408,9 @@
    </property>
   </action>
   <action name="actionTool">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
    <property name="icon">
     <iconset resource="notepad.qrc">
      <normaloff>:/images/MaterialSymbolsToolbarOutline.png</normaloff>:/images/MaterialSymbolsToolbarOutline.png</iconset>
@@ -414,6 +426,9 @@
    </property>
   </action>
   <action name="actionStatus">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
    <property name="icon">
     <iconset resource="notepad.qrc">
      <normaloff>:/images/CodiconLayoutStatusbar.png</normaloff>:/images/CodiconLayoutStatusbar.png</iconset>
@@ -434,6 +449,39 @@
    </property>
    <property name="toolTip">
     <string>关于</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actionFontColor">
+   <property name="text">
+    <string>字体颜色</string>
+   </property>
+   <property name="toolTip">
+    <string>字体颜色</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actionEditorBackgroudColor">
+   <property name="text">
+    <string>编辑器背景色</string>
+   </property>
+   <property name="toolTip">
+    <string>编辑器背景色</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actionFontBackgroudColor">
+   <property name="text">
+    <string>字体背景色</string>
+   </property>
+   <property name="toolTip">
+    <string>字体背景色</string>
    </property>
    <property name="menuRole">
     <enum>QAction::MenuRole::NoRole</enum>
